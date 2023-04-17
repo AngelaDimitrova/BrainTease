@@ -1,3 +1,11 @@
+.bg-lightgray{
+    background-color: #F5F5F5;
+}
+
+.fs-7{
+    font-size: small;
+}
+
 .h-10vh{
     height: 10vh;
 }
@@ -9,9 +17,3 @@
 .h-5vh{
     height: 5vh;
 }
-
-.bg-lightgray{
-    background-color: #F5F5F5;
-}
-
-
