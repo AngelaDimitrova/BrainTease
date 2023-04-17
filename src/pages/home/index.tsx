@@ -14,7 +14,7 @@ return (
                     <p className="m-0">you get where you want to go?</p>
                     <p className="m-0">Our quizzes can help you.</p>
                 </div>
-                <a className="btn btn-warning text-white">Start Solving</a>
+                <a href="login" className="btn btn-warning text-white">Start Solving</a>
             </div>
             <div className="w-50">
                 <Image src={homepageImageUrl} alt="homepage image" width='500' height='500'/>
