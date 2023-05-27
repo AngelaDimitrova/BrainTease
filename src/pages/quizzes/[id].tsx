@@ -1,8 +1,17 @@
 import Layout from "@/components/layout"
+import {useRouter} from "next/router";
 
 const QuizDetails = () => {
+    const router = useRouter();
+    const { id } = router.query;
+
+    // TODO: Get all questions for the provided Quiz ID and show them with their answers
+    // /api/quizzes/{quiz_id}/questions
+    // /api/questions/{question_id}/answers
+
     return (
         <Layout>
+            <h1>Current QUIZ ID: { id }</h1>
             <div className="d-flex justify-content-center align-items-center h-10 mt-4 p-5 bg-lightgray">
                 <div className="w-50">
                     <div className="quiz-question mb-5 text-center">
