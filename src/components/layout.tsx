@@ -16,10 +16,10 @@ const Layout = ({children}: LayoutProps) => {
                         </svg>
                     </div>
                     <div className="d-flex flex-row justify-content-end">
-                        <a href="home" className="px-2 py-2 mx-2">Home</a>
-                        <a href="#" className="px-2 py-2 mx-2">Quizzes</a>
-                        <a href="login" className="text-warning px-2 py-2 mx-2 border border-warning rounded-1">Login</a>
-                        <a href="register" className="text-warning px-2 py-2 mx-2 border border-warning rounded-1">Register</a>
+                        <a href="/home" className="px-2 py-2 mx-2">Home</a>
+                        <a href="/quizzes" className="px-2 py-2 mx-2">Quizzes</a>
+                        <a href="/login" className="text-warning px-2 py-2 mx-2 border border-warning rounded-1">Login</a>
+                        <a href="/register" className="text-warning px-2 py-2 mx-2 border border-warning rounded-1">Register</a>
                     </div>
                 </div>
             </header>
